@@ -368,7 +368,7 @@ Given many of these evolve via stones, we've given them their pre-evolution's le
 
 Credits
 ====
-As the open source nature of this project implies, people are free to reuse what's here for their own ends, **so long as credit is given, to this hack and those who worked on what you reuse.** Additionally, we strongly urge you to make any projects using KEP's content open source. KEP strongly supports the [free software movement](https://www.fsf.org/about/) and its four essential freedoms. If you have any questions on the topic of content reuse, contact @ plague_von_karma on Discord.
+As the open source nature of this project implies, people are free to reuse what's here for their own ends, **so long as credit is given, to this hack and those who worked on what you reuse.** Additionally, we strongly urge you to make any projects using KEP's content open source. KEP strongly supports the [free software movement](https://www.fsf.org/about/) and its four essential freedoms. If you have any questions on the topic of content reuse, contact @ memento_martha on Discord.
 
 KEP spriters hold the policy of requiring sprites to be used with direct credit for non-commerical purposes. Credit Albatross and Martha's Against Humanity in any case of using them. Helix Chamber spriters have a "must credit" policy as well, and precise credits for them are available [here](https://cdn.discordapp.com/attachments/1014321591657709569/1015347305483878521/unknown.png).
 
