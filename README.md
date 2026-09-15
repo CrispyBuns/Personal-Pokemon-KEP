@@ -1,6 +1,6 @@
 Kanto Expansion Pak
 ===================
-This is a ROM Hack of Pokémon Red and Blue, aiming to expand the Kanto region with new Kanto-related Pokemon, more interesting locations, and QoL changes. It is a port of my [Pokemon Showdown Mod](https://github.com/PlagueVonKarma?tab=repositories), in a sense.
+This is a ROM Hack of Pokémon Red and Blue, aiming to expand the Kanto region with new Kanto-related Pokemon, more interesting locations, and QoL changes. It started as a port of the [Pokemon Showdown Mod](https://github.com/ShiraTheMogul/gen1expansionpack) of the same name, in a sense.
 
 If playing on an emulator, BGB is strongly recommended for its accuracy and features. Inaccurate emulators, such as VBA and TGB Dual, can experience unintended glitches. This hack is fully playable on official hardware as well.
 
@@ -131,7 +131,7 @@ New Music
 	- The Galarian Legendary Birds have a demake of their Sword and Shield battle theme instead! Composed by LuciShrimp. 
 - Mt. Moon Crater uses a demake of Scarlet and Violet's Area Zero theme! Composed by LuciShrimp.
 - Team Rocket's battle theme from GSC has been backported with some small changes to give it more of an RBY feel. Plays during Rocket Grunt fights, including Jessie and James, as well as the initial 2 Giovanni battles. Composed by LuciShrimp.
-	- In addition to the aforementioned Team Rocket battle theme, a slower, pitched-down arrangement plays when battling Giovanni in his gym, as well as against a postgame boss. Composed by LuciShrimp and Martha's Against Humanity.
+	- In addition to the aforementioned Team Rocket battle theme, a slower, pitched-down arrangement plays when battling Giovanni in his gym, as well as against a postgame boss. Composed by LuciShrimp and Memento Martha
 - Pokemon Yellow's various tracks have been backported, such as Jessie and James's encounter theme.
 - Several pieces of unused music, including Digda01, Victory4, Field6, Kincho01, and Giovanni's theme have been implemented.
 	- A remix of the unused Koukan (trading) music is also used as a town theme. Composed by BGVC.
@@ -368,14 +368,14 @@ Given many of these evolve via stones, we've given them their pre-evolution's le
 
 Credits
 ====
-As the open source nature of this project implies, people are free to reuse what's here for their own ends, **so long as credit is given, to this hack and those who worked on what you reuse.** Additionally, we strongly urge you to make any projects using KEP's content open source. KEP strongly supports the [free software movement](https://www.fsf.org/about/) and its four essential freedoms. If you have any questions on the topic of content reuse, contact @ plague_von_karma on Discord.
+As the open source nature of this project implies, people are free to reuse what's here for their own ends, **so long as credit is given, to this hack and those who worked on what you reuse.** Additionally, we strongly urge you to make any projects using KEP's content open source. KEP strongly supports the [free software movement](https://www.fsf.org/about/) and its four essential freedoms. If you have any questions on the topic of content reuse, contact @ memento_martha on Discord.
 
-KEP spriters hold the policy of requiring sprites to be used with direct credit for non-commerical purposes. Credit Albatross and Martha's Against Humanity in any case of using them. Helix Chamber spriters have a "must credit" policy as well, and precise credits for them are available [here](https://cdn.discordapp.com/attachments/1014321591657709569/1015347305483878521/unknown.png).
+KEP spriters hold the policy of requiring sprites to be used with direct credit for non-commerical purposes. Credit Albatross and Memento Martha in any case of using them. Helix Chamber spriters have a "must credit" policy as well, and precise credits for them are available [here](https://cdn.discordapp.com/attachments/1014321591657709569/1015347305483878521/unknown.png).
 
 If you use our implementations of anything at all, it is encouraged to submit Pull Requests for bug fixes if you find any issues! We very much appreciate them!
 
 * Plague von Karma - Creator of the Showdown Mod, Director, Developer, Scenarios, Balancing, Dialogue, Pokedex entries, Maps (Mt. Moon Crater, Galarian Bird dungeons, Rock Tunnel, Cinnabar Volcano floors, enhanced Diglett's Cave, Shinjuku Jacky's room, and more), Event scripting, Hyper Training, FRLG Tea, post-game rematches, male/female character selection, Meltan implementation, Yellow backports, and occasional spriter (assisting with Bellignan, Carapthor)
-* Martha's Against Humanity - Developer, Pokémon implementation, Pokedex entries, event scripting, tweaks of Albatross's sprites, Sylveon, Bellignan, Galarian Slowking, Galarian Slowbro and Mimmeo sprites, Maps (Citrine City, Cinnabar Volcano, Underwater Tunnel, Silph Gauntlet,), Giovanni's battle theme, SGB border, new palettes for postgame areas and Game Corner, etc.
+* Memento Martha / Martha's Against Humanity - Developer, Pokémon implementation, Pokedex entries, event scripting, tweaks of Albatross's sprites, Sylveon, Bellignan, Galarian Slowking, Galarian Slowbro and Mimmeo sprites, Maps (Citrine City, Cinnabar Volcano, Underwater Tunnel, Silph Gauntlet,), Giovanni's battle theme, SGB border, new palettes for postgame areas and Game Corner, etc.
 * Ema Skye - Developer, Maps (Silph Co. and Pokemon Tower shortening), Mt. Moon Crater Guard, Showdown Mod assistance.
 * BlueZangoose / Vimescarrot - Pokemon box expansion, Instatext option, general assistance.
 * Albatross - Many of the new sprites used in the hack (A significant number of post-Gen 1 evolutions, all regional variants, Meltan and Carapthor lines, etc.)
@@ -392,7 +392,7 @@ If you use our implementations of anything at all, it is encouraged to submit Pu
 * erosunica - Assistance with developing Celadon University & Citrine City, plus sources for various subjects.
 * Chatot4444 - Assisting with gym scaling code.
 * Enigami - Reworking the Battle Tent's RestoreTeam code to make it work properly. 
-* HunnieBuns (originally HeadBoiSkye) - Helped with writing NPC dialogue and Pokédex entries for new Pokémon such as Orfry.
+* HunnieBuns - Helped with writing NPC dialogue and Pokédex entries for new Pokémon such as Orfry.
 * ZumiIsawhat? - Restorations of prototype OST.
 * FrenchOrange - Reconstructions of various overworld prototype sprites.
 * Helix Chamber (RacieBeep & Orchid) - Prototype Pokémon sprites. Precise credits are available [here](https://cdn.discordapp.com/attachments/1014321591657709569/1015347305483878521/unknown.png) and below.
@@ -416,11 +416,11 @@ If you use our implementations of anything at all, it is encouraged to submit Pu
 
 Albatross sprites: Articuno-G, Blissey, Dugtrio-A, Electivire, Electrode-H, Espeon (back), Exeggutor-A, Gentlarva, Glaceon, Golem-A, Hitmontop, Iguanarch, Kleavor, Leafeon, Lickilicky, Marowak-A, Melmetal, Meltan, Moltres-G, Mr. Rime, Muk-A, Ninetales-A, Perrserker, Persian-A, Politoed, Porygon-Z, Pupal, Raichu-A, Rapidash-G, Raticate-A, Rhyperior, Sandslash-A, Sandy Shocks, Scizor, Sirfetch’d, Slowbro-G, Slowking (back), Slowking-G (back), Sylveon (back), Tangrowth, Tauros-P (all forms), Toedscool, Toedscruel, Umbreon (back), Weezing-G, Wiglett, Zapdos-G
 
-Martha’s Against Humanity sprites: Bellignan (front, with help from PvK), Mimmeo (front), Slowking-G (front), Slowbro-G (front, with help from Albatross), Sylveon (front, with help from Albatross)
+Memento Martha sprites: Bellignan (front, with help from PvK), Mimmeo (front), Slowking-G (front), Slowbro-G (front, with help from Albatross), Sylveon (front, with help from Albatross)
 
-Albatross sprites refined by either Martha’s Against Humanity or PvK: Annihilape, Arcanine-H, Bellossom, Carapthor, Gorillaimo, Kingdra, Magmortar, Magnezone, Ministare, Porygon2, Scream Tail, Squeamata, Tauros-P (all forms), Wugtrio
+Albatross sprites refined by either Memento Martha or PvK: Annihilape, Arcanine-H, Bellossom, Carapthor, Gorillaimo, Kingdra, Magmortar, Magnezone, Ministare, Porygon2, Scream Tail, Squeamata, Tauros-P (all forms), Wugtrio
 
-RacieBeep sprites: Balumba, Blastyke, Blottle, Buu, Cactormus, Cheep, Coinpur, Croakozuna, Decilla, Fossils, Gaotora, Gavillain (edited by Albatross), Gawarhed (Current release), Gorochu (edited by Martha’s Against Humanity), Gorotora, Guardia, Jabetta (edited by Martha’s Against Humanity), Kolta, Kotora, Luxwan, Nidoreign, Omegadge (front/back), Orfry, Pendraken, Ramoose, Ribbito, Sharpoon, Totartle, Trampel, Vulpiii, Weirduck, Fossil Aerodactyl, Fossil Kabutops, Ghost, Articuno (back), Meowth (back)
+RacieBeep sprites: Balumba, Blastyke, Blottle, Buu, Cactormus, Cheep, Coinpur, Croakozuna, Decilla, Fossils, Gaotora, Gavillain (edited by Albatross), Gawarhed (Current release), Gorochu (edited by Memento Martha), Gorotora, Guardia, Jabetta (edited by Martha’s Against Humanity), Kolta, Kotora, Luxwan, Nidoreign, Omegadge (front/back), Orfry, Pendraken, Ramoose, Ribbito, Sharpoon, Totartle, Trampel, Vulpiii, Weirduck, Fossil Aerodactyl, Fossil Kabutops, Ghost, Articuno (back), Meowth (back)
 
 Loumilouminosus: Gawarhed (In-repo version, edited by Zeta_Null)
 
@@ -428,7 +428,7 @@ Orchid: Luxwan (back), Buu (back)
 
 Zeta_Null: Porygon (front), All sprites for Pink (Nonbinary player option)
 
-Official sprites: Crobat (front, edited by Martha’s Against Humanity), Disturban, Espeon (front, edited by Martha’s Against Humanity), Slowking (front), Steelix (front), Tricules, Umbreon (front, edited by Martha’s Against Humanity)
+Official sprites: Crobat (front, edited by Memento Martha), Disturban, Espeon (front, edited by Memento Martha), Slowking (front), Steelix (front), Tricules, Umbreon (front, edited by Memento Martha)
 
 Original README.md proceeding;
 # Pokémon Red and Blue [![Build Status][ci-badge]][ci]
