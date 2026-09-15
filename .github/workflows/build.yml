@@ -1,0 +1,35 @@
+name: Build ROM
+
+on:
+  push:
+    branches: [ master ]
+  pull_request:
+    branches: [ master ]
+
+jobs:
+  build:
+    runs-on: ubuntu-latest
+
+    steps:
+      - name: Check out repo
+        uses: actions/checkout@v4
+
+      - name: Install RGBDS build dependencies
+        run: sudo apt-get update && sudo apt-get install -y bison flex pkg-config libpng-dev
+
+      - name: Build and install RGBDS v0.6.1
+        run: |
+          git clone --branch v0.6.1 --depth 1 https://github.com/gbdev/rgbds.git
+          cd rgbds
+          make -j$(nproc)
+          sudo make install
+
+      - name: Build ROM
+        run: make personal -j$(nproc)
+
+      - name: Upload ROM artifact
+        uses: actions/upload-artifact@v4
+        with:
+          name: Personal-Pokemon-Kanto-Expansion-Pak
+          path: Personal-Pokemon-Kanto-Expansion-Pak.gb
+          if-no-files-found: error
