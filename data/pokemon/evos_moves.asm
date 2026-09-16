@@ -2445,7 +2445,7 @@ AerodactylEvosMoves:
 
 BlastykeEvosMoves:
 ; Evolutions
-	db EV_LEVEL, 36, BLASTOISE
+	db EV_LEVEL, 35, BLASTOISE
 	db 0
 ; Learnset
 	db 8, BUBBLE

@@ -21,7 +21,7 @@ RockTunnelB1F_Object:
 	object_event 22,  5, SPRITE_YOUNGSTER, STAY, DOWN, 9
 	object_event  7, 25, SPRITE_FOSSIL, STAY, NONE, 10, HELIX_FOSSIL
 	object_event  6, 25, SPRITE_FOSSIL, STAY, NONE, 11, DOME_FOSSIL
-	object_event  4, 15, SPRITE_POKE_BALL, STAY, NONE, 12, UP_GRADE
+	object_event  4, 15, SPRITE_POKE_BALL, STAY, NONE, 12, RARE_CANDY
 	object_event  5, 23, SPRITE_FOSSIL, STAY, NONE, 13, WING_FOSSIL
 	
 	def_warps_to ROCK_TUNNEL_B1F
