@@ -2780,6 +2780,7 @@ UmbreonEvosMoves:
 	db 42, TAKE_DOWN
 	db 52, FALSE_SURRENDER
 	db 55, DOUBLE_TEAM
+        db 45, BITE
 	
 LeafeonEvosMoves:
 ; Evolutions
