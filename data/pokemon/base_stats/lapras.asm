@@ -1,6 +1,6 @@
 	db DEX_LAPRAS ; pokedex id
 
-	db 130,  85,  80,  60,  95
+	db 135,  85,  80,  70,  97
 	;   hp  atk  def  spd  spc
 
 	db WATER, ICE ; type
@@ -10,7 +10,7 @@
 	INCBIN "gfx/pokemon/front/lapras.pic", 0, 1 ; sprite dimensions
 	dw LaprasPicFront, LaprasPicBack
 
-	db WATER_GUN, GROWL, NO_MOVE, NO_MOVE ; level 1 learnset
+	db SURF, ICE_BEAM, SUBSTITUTE, DOUBLE_TEAM ; level 1 learnset
 	db GROWTH_SLOW ; growth rate
 
 	; tm/hm learnset
